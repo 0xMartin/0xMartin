@@ -30,9 +30,9 @@
 <p align="center" >
       <img src="./icons/frameworks/qt.png" alt="QT" height="55"/> 
       &emsp;
-      <img src="./icons/frameworks/spring.png" alt="SPRING" height="55"/> 
-      &emsp;
       <img src="./icons/frameworks/opengl.png" alt="OPEN GL" height="55"/> 
+      &emsp;
+      <img src="./icons/frameworks/spring.png" alt="SPRING" height="55"/> 
       &emsp;
       <img src="./icons/frameworks/mariadb.png" alt="MARIA DB" height="55"/> 
       &emsp;
