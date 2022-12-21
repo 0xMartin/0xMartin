@@ -10,6 +10,12 @@
  🌌 Web Applications, Game Development, Graphic Design
  🎓 Tomas Bata University - Faculty of Applied Informatics
  💻 Most used languages <b>C++</b>, <b>C</b>, <b>JAVA</b>
+ 
+ <b>Hobby:</b>
+ 🛩️ Drones & planes
+ 🛴 Electric scooters
+ 🤖 Robots
+ 🍣 Sushi
 </pre>
 ---
 
