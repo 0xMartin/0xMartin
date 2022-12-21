@@ -24,6 +24,8 @@
       <img src="./icons/lang/python.png" alt="PYTHON" height="55"/> 
       &emsp;
       <img src="./icons/lang/php.png" alt="PHP" height="55"/> 
+      &emsp;
+      <img src="./icons/lang/c-sharp.png" alt="C#" height="55"/> 
 </p>
 
 ### 👉 Frameworks & Technology
