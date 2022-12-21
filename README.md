@@ -5,11 +5,11 @@
 
 ## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
 <pre>
-- ‍💻 Software and hardware engineer
-- 🎯 I primarily deal with the development of desktop applications and embedded applications
-- 🌌 Web Applications, Game Development, Graphic Design
-- 🎓 Tomas Bata University - Faculty of Applied Informatics
-- 💻 Most used languages **C++**, **C**, **JAVA**
+ ‍💻 Software and hardware engineer
+ 🎯 I primarily deal with the development of desktop applications and embedded applications
+ 🌌 Web Applications, Game Development, Graphic Design
+ 🎓 Tomas Bata University - Faculty of Applied Informatics
+ 💻 Most used languages <b>C++</b>, <b>C</b>, <b>JAVA</b>
 </pre>
 ---
 
