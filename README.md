@@ -4,9 +4,11 @@
 [![Github](https://img.shields.io/github/followers/0xMartin?label=Follow&style=social)](https://github.com/0xMartin)
 
 ## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
-- ‍I'm a backend developer and hardware engineer
+- ‍💻 Software and hardware engineer
+- :star2: I primarily deal with the development of desktop applications and embedded applications
+- 🌌 Web Applications, Game Development, Graphic Design
 - 🎓 Tomas Bata University - Faculty of Applied Informatics
-- 💻 I use daily **C++**, **C**, **JAVA**
+- 💻 Most used languages **C++**, **C**, **JAVA**
 
 ---
 
@@ -30,20 +32,22 @@
 
 ### 👉 Frameworks & Technology
 <p align="center" >
-      <img src="./icons/frameworks/qt.png" alt="QT" height="45"/> 
+      <img src="./icons/framework/qt.png" alt="QT" height="45"/> 
       &emsp;
-      <img src="./icons/frameworks/opengl.png" alt="OPEN GL" height="45"/> 
+      <img src="./icons/framework/opengl.png" alt="OPEN GL" height="45"/> 
       &emsp;
-      <img src="./icons/frameworks/spring.png" alt="SPRING" height="45"/> 
+      <img src="./icons/framework/spring.png" alt="SPRING" height="45"/> 
       &emsp;
-      <img src="./icons/frameworks/mariadb.png" alt="MARIA DB" height="45"/> 
+      <img src="./icons/framework/mariadb.png" alt="MARIA DB" height="45"/> 
       &emsp;
-      <img src="./icons/frameworks/mysql.png" alt="MY SQL" height="45"/> 
+      <img src="./icons/framework/mysql.png" alt="MY SQL" height="45"/> 
       &emsp;
-      <img src="./icons/frameworks/mongodb.png" alt="MONGO DB" height="45"/> 
+      <img src="./icons/framework/mongodb.png" alt="MONGO DB" height="45"/> 
+      &emsp;
+      <img src="./icons/framework/bash.svg" alt="BASH" height="45"/> 
 </p>
 
-### 👉 Software & Tools
+### 👉 IDEs & Tools
 <p align="center" >
       <img src="./icons/tools/vscode.png" alt="VS CODE" height="45"/> 
       &emsp;
@@ -51,13 +55,25 @@
       &emsp;
       <img src="./icons/tools/platformio.png" alt="PLATFORM.IO" height="45"/> 
       &emsp;
-      <img src="./icons/tools/bash.svg" alt="BASH" height="45"/> 
-      &emsp;
       <img src="./icons/tools/git.png" alt="GIT" height="45"/> 
       &emsp;
       <img src="./icons/tools/multisim.png" alt="Multisim/Ultiboard" height="45"/> 
       &emsp;
       <img src="./icons/tools/easyeda.png" alt="EasyEDA" height="45"/> 
+</p>
+
+### 👉 Game Development & Graphic Design
+<p align="center" >
+      <img src="./icons/graphics/godot.svg" alt="GODOT" height="45"/> 
+      &emsp;
+      <img src="./icons/graphics/photoshop.png" alt="PHOTOSHOP" height="45"/> 
+      &emsp;
+      <img src="./icons/graphics/premiere.png" alt="PREMIERE" height="45"/> 
+      &emsp;
+      <img src="./icons/graphics/after_effects.png" alt="AFTER EFFECTS" height="45"/> 
+      &emsp;
+      <img src="./icons/graphics/blender.png" alt="BLENDER" height="45"/> 
+      &emsp;
 </p>
 
 ### 👉 Operating Systems
