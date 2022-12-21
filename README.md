@@ -4,12 +4,13 @@
 [![Github](https://img.shields.io/github/followers/0xMartin?label=Follow&style=social)](https://github.com/0xMartin)
 
 ## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
+<pre>
 - ‍💻 Software and hardware engineer
-- :star2: I primarily deal with the development of desktop applications and embedded applications
+- 🎯 I primarily deal with the development of desktop applications and embedded applications
 - 🌌 Web Applications, Game Development, Graphic Design
 - 🎓 Tomas Bata University - Faculty of Applied Informatics
 - 💻 Most used languages **C++**, **C**, **JAVA**
-
+</pre>
 ---
 
 ## Skills <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px>
@@ -89,7 +90,16 @@
 ---
 
 ## 📊 Github Stats
-![0xMartin github stats](https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&title_color=ffc857&icon_color=8ac926&text_color=daf7dc&bg_color=151515&hide=issues&count_private=true&include_all_commits=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0xMartin&layout=compact&text_color=daf7dc&bg_color=151515&hide=php)](https://github.com/anuraghazra/github-readme-stats)
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=0xMartin&theme=dark)](https://git.io/streak-stats)
+<p align="center">
+	<a href="https://github.com/0xMartin">
+	<img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&theme=dracula" alt="0xMartin">
+	<img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=0xMartin&theme=dracula" alt="0xMartin">
+	</a>
+	<br/>
+</p>
+<p align="center">
+	<a href="https://github.com/0xMartin">
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xMartin&langs_count=8&layout=compact&hide=css,scss,html&theme=dracula" alt="0xMartin">
+	</a>
+</p>
 
