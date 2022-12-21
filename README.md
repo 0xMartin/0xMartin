@@ -1,5 +1,8 @@
 # Hi there! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />
 
+![Profile views](https://visitor-badge.glitch.me/badge?page_id=0xMartin)
+[![Github](https://img.shields.io/github/followers/0xMartin?label=Follow&style=social)](https://github.com/0xMartin)
+
 ## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
 - ‍I'm a backend developer and hardware engineer
 - 🎓 Tomas Bata University - Faculty of Applied Informatics
