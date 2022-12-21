@@ -66,7 +66,7 @@
       &emsp;
       <img src="./icons/sys/kali.png" alt="KALI" height="45"/> 
       &emsp;
-      <img src="./icons/sys/win.png" alt="WINDOWS" height="4 ji5"/> 
+      <img src="./icons/sys/win.png" alt="WINDOWS" height="45"/> 
 </p>
 
 
