@@ -51,7 +51,7 @@
       &emsp;
       <img src="./icons/tools/platformio.png" alt="PLATFORM.IO" height="45"/> 
       &emsp;
-      <img src="./icons/tools/markdown.png" alt="MARKDOWN" height="45"/> 
+      <img src="./icons/tools/bash.svg" alt="BASH" height="45"/> 
       &emsp;
       <img src="./icons/tools/git.png" alt="GIT" height="45"/> 
       &emsp;
