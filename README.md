@@ -98,8 +98,8 @@
 ## 📊 Github Stats
 <p align="center">
 	<a href="https://github.com/0xMartin">
-	<img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&theme=dracula&count_private=true" alt="0xMartin">
-	<img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=0xMartin&theme=dracula&count_private=true" alt="0xMartin">
+	<img width="49%" src="https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&theme=dracula&count_private=true" alt="0xMartin">
+	<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=0xMartin&theme=dracula&count_private=true" alt="0xMartin">
 	</a>
 	<br/>
 </p>
