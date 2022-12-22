@@ -6,7 +6,7 @@
 ## <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
 <pre>
  ‍💻 Software and hardware engineer
- 🎯 I primarily deal with the development of desktop applications and embedded applications
+ 🎯 I primarily develop desktop applications and embedded system applications
  🌌 Web Applications, Game Development, Graphic Design
  🎓 Tomas Bata University - Faculty of Applied Informatics
  💻 Most used languages <b>C++</b>, <b>C</b>, <b>JAVA</b>
