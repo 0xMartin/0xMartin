@@ -96,6 +96,11 @@
 ---
 
 ## 📊 Github Stats
+
+<p align="center">
+   <img alt="Hanumat Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=0xMartin&theme=tokyo-night&hide_border=true" />
+</p>
+
 <p align="center">
 	<a href="https://github.com/0xMartin">
 	<img width="49%" src="https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&theme=dracula&count_private=true" alt="0xMartin">
@@ -103,6 +108,7 @@
 	</a>
 	<br/>
 </p>
+
 <p align="center">
 	<a href="https://github.com/0xMartin">
 	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xMartin&langs_count=8&layout=compact&hide=css,scss,html&theme=dracula" alt="0xMartin">
