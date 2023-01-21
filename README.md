@@ -28,7 +28,7 @@
       &emsp;
       <img src="./icons/lang/java.png" alt="JAVA" height="45"/> 
       &emsp;
-      <img src="./icons/lang/js.png" alt="JS" height="45"/> 
+      <img src="./icons/lang/kotlin.png" alt="KOTLIN" height="45"/>
       &emsp;
       <img src="./icons/lang/python.png" alt="PYTHON" height="45"/> 
       &emsp;
