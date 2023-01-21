@@ -81,15 +81,6 @@
       &emsp;
 </p>
 
-### 👉 Operating Systems
-<p align="center" >
-      <img src="./icons/sys/fedora.png" alt="FEDORA" height="45"/> 
-      &emsp;
-      <img src="./icons/sys/kali.png" alt="KALI" height="45"/> 
-      &emsp;
-      <img src="./icons/sys/win.png" alt="WINDOWS" height="45"/> 
-</p>
-
 
 ---
 
