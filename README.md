@@ -89,7 +89,7 @@
 ## 📊 Github Stats
 
 <p align="center">
-   <img alt="Hanumat Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=0xMartin&theme=tokyo-night&hide_border=true" />
+   <img src="https://github-readme-activity-graph.cyclic.app/graph?username=0xMartin&theme=react-dark&hide_border=true" />
 </p>
 
 <p align="center">
