@@ -47,8 +47,6 @@
       &emsp;
       <img src="./icons/framework/mariadb.png" alt="MARIA DB" height="45"/> 
       &emsp;
-      <img src="./icons/framework/mysql.png" alt="MY SQL" height="45"/> 
-      &emsp;
       <img src="./icons/framework/mongodb.png" alt="MONGO DB" height="45"/> 
       &emsp;
       <img src="./icons/framework/bash.svg" alt="BASH" height="45"/> 
