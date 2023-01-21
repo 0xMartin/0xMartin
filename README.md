@@ -30,6 +30,8 @@
       &emsp;
       <img src="./icons/lang/kotlin.png" alt="KOTLIN" height="45"/>
       &emsp;
+      <img src="./icons/lang/js.png" alt="JS" height="45"/>
+      &emsp;
       <img src="./icons/lang/python.png" alt="PYTHON" height="45"/> 
       &emsp;
       <img src="./icons/lang/php.png" alt="PHP" height="45"/> 
