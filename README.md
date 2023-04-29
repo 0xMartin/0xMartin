@@ -81,6 +81,6 @@
 
 <p align="center">
 	<a href="https://github.com/0xMartin">
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xMartin&langs_count=8&layout=compact&hide=css,scss,html&theme=dracula" alt="0xMartin">
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xMartin&langs_count=8&layout=compact&hide=css,scss,html,jupyter%20notebook,mathematica&theme=dracula" alt="0xMartin">
 	</a>
 </p>
