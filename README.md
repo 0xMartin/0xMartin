@@ -17,7 +17,7 @@
 <pre>
  ‍💻 Software and hardware engineer
  🎯 I primarily develop desktop applications and embedded system applications
- 🌌 Web Applications, Game Development, Graphic Design
+ 🌌 Web Applications, Game Development, Graphic Design, Circuit/PCB design, Analog/Digital electronics
  🎓 Tomas Bata University - Faculty of Applied Informatics
  💻 My favorite languages <b>C++</b>, <b>C</b>, <b>JAVA</b>
  
