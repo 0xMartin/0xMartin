@@ -26,6 +26,8 @@
  🛴 Electric scooters
  🤖 Robots
  🍣 Sushi
+ 🏊 Swimming
+ 🎆 Pyrotechnics
 </pre>
 
 <div align="center">
