@@ -28,6 +28,7 @@
  🍣 Sushi
  🏊 Swimming
  🎆 Pyrotechnics
+ 🃏 Poker   
 </pre>
 
 <div align="center">
