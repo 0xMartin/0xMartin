@@ -120,11 +120,13 @@
 				<img width="90%" src="circ.gif">
 			</p>
 			</td>  	  
-			<td valign="top">
-				<img src="https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&theme=dracula&count_private=true" alt="0xMartin">
-			<br>
-				<img src="https://github-readme-streak-stats.herokuapp.com/?user=0xMartin&theme=dracula&count_private=true" alt="0xMartin">
-			</td>  
+		</tr>
+		<tr>
 		</tr>
 	</table>
+</p>
+
+<p align="center">			
+	<img width="47%" src="https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&theme=dracula&count_private=true" alt="0xMartin">
+	<img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=0xMartin&theme=dracula&count_private=true" alt="0xMartin">
 </p>
