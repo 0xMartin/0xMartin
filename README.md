@@ -111,20 +111,20 @@
 
 <p align="center">
 	<table cellpadding="0">
-	  <tr style="padding: 0">
-	    <td valign="top">
-		<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xMartin&langs_count=8&layout=donut-vertical&hide=css,scss,html,jupyter%20notebook,mathematica&theme=dracula" alt="0xMartin">
-	    </td>
-	    <td valign="top">
-		    <p align="center">
-		    <img width="90%" src="https://64.media.tumblr.com/f9cdd7f7e01de32b08525e12a3f8c4d7/tumblr_oc6m5xG3NW1txeruoo2_r1_500.gif">
-	   </p>
-            </td>  	  
-	    <td valign="top">
-		<img src="https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&theme=dracula&count_private=true" alt="0xMartin">
-		<br>
-		<img src="https://github-readme-streak-stats.herokuapp.com/?user=0xMartin&theme=dracula&count_private=true" alt="0xMartin">
-	    </td>  
-	  </tr>
+	  	<tr style="padding: 0">
+			<td valign="top">
+				<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xMartin&langs_count=8&layout=donut-vertical&hide=css,scss,html,jupyter%20notebook,mathematica&theme=dracula" alt="0xMartin">
+			</td>
+			<td valign="top">
+				<p align="center">
+				<img width="90%" src="circ.gif">
+			</p>
+			</td>  	  
+			<td valign="top">
+				<img src="https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&theme=dracula&count_private=true" alt="0xMartin">
+			<br>
+				<img src="https://github-readme-streak-stats.herokuapp.com/?user=0xMartin&theme=dracula&count_private=true" alt="0xMartin">
+			</td>  
+		</tr>
 	</table>
 </p>
