@@ -109,22 +109,20 @@
 </p>
 
 
-<p align="center">
-	<table cellpadding="0">
+<div align="center" width="100%">
+	<table cellpadding="0" width="100%">
 	  	<tr style="padding: 0">
 			<td valign="top">
 				<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xMartin&langs_count=8&layout=donut-vertical&hide=css,scss,html,jupyter%20notebook,mathematica&theme=dracula" alt="0xMartin">
 			</td>
 			<td valign="top">
 				<p align="center">
-				<img width="90%" src="circ.gif">
-			</p>
+					<img width="90%" src="circ.gif">
+				</p>
 			</td>  	  
 		</tr>
-		<tr>
-		</tr>
 	</table>
-</p>
+</div>
 
 <p align="center">			
 	<img width="47%" src="https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&theme=dracula&count_private=true" alt="0xMartin">
