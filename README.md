@@ -32,11 +32,6 @@
  
 </pre>
 
-<div align="center">
-<a href="mailto:martin.krcma1@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="https://www.instagram.com/0xm4r71n/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"></a>
-</div>
-
 ---
 
 <div align="center">
