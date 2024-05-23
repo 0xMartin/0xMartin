@@ -38,8 +38,8 @@
 	<h1 style="border-bottom: none;">Skills <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px></h1>
 </div>
 
-<div align="center">
-	<h2 style="border-bottom: none;">Programming languages</h2>
+<div align="">
+	<h3 style="border-bottom: none;">Programming languages</h2>
 	<img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="c++">
 	<img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="c">
 	<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="java">
@@ -49,8 +49,8 @@
 	<img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="php">
 </div>
 
-<div align="center">
-	<h2 style="border-bottom: none;">Frameworks & Technology</h2>
+<div align="">
+	<h3 style="border-bottom: none;">Frameworks & Technology</h2>
 	<img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white" alt="qt">
 	<img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt=".Net">
 	<img src="https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl" alt="OpenGL">
@@ -62,8 +62,8 @@
 	<img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
 </div>
 
-<div align="center">
-    <h2 style="border-bottom: none;">IDEs &amp; Tools</h2>
+<div align="">
+    <h3 style="border-bottom: none;">IDEs &amp; Tools</h2>
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&amp;logo=visual-studio-code&amp;logoColor=white" alt="Visual Studio Code">
     <img src="https://img.shields.io/badge/QtCreator-%23217346.svg?style=for-the-badge&amp;logo=Qt&amp;logoColor=white" alt="QtCreator">
     <img src="https://img.shields.io/badge/PlatformIO-%23F5792A.svg?style=for-the-badge&amp;logoColor=white" alt="PlatformIO">
@@ -74,8 +74,8 @@
     <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white" alt="Azure">
 </div>
 
-<div align="center">
-	<h2 style="border-bottom: none;">Operating System</h2>
+<div align="">
+	<h3 style="border-bottom: none;">Operating System</h2>
 	<img src="https://img.shields.io/badge/Pop!_OS-48B9C7?style=for-the-badge&logo=Pop!_OS&logoColor=white" alt="popos">
 	<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="ubuntu">
 	<img src="https://img.shields.io/badge/-KUbuntu-%230079C1?style=for-the-badge&logo=kubuntu&logoColor=white" alt="kubuntu">
@@ -84,8 +84,8 @@
 	<img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="windows">
 </div>
 
-<div align="center">
-	<h2 style="border-bottom: none;">Game Development & Graphic Design</h2>
+<div align="">
+	<h3 style="border-bottom: none;">Game Development & Graphic Design</h2>
 	<img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white" alt="unity">
 	<img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="blender">
 	<img src="https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine" alt="godot">
