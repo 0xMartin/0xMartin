@@ -29,6 +29,7 @@
  `🛩️ Drones & planes`
  `🛴 Electric scooters`
  `🤖 Robots`
+ `📷 Photographing`
  `🍣 Sushi`
  `💻 Games`
  `🃏 Poker`
