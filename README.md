@@ -14,32 +14,33 @@
 	</h1>
 </div>
 
-<pre>
- ‍💻 Software and hardware engineer
- 🎯 I primarily develop desktop applications and embedded system applications
- 🌌 Circuit/PCB design, Analog/Digital electronics, Game Development, Graphic Design, Web Applications
- 🎓 Tomas Bata University - Faculty of Applied Informatics
- 💻 My favorite languages <b>C++</b>, <b>C</b>, <b>JAVA</b>
- 
- <b>Hobby:</b>
- 🛩️ Drones & planes
- 🛴 Electric scooters
- 🤖 Robots
- 🍣 Sushi
- 🃏 Poker
- 🎆 Pyrotechnics	
- 🏊 Swimming
- 
-</pre>
 
----
-
+ ‍**💻 Software and hardware engineer**
+ 
+ **🎯 I primarily develop desktop applications and embedded system applications**
+ 
+ **🌌 What else am I doing:** `Circuit/PCB design` `Analog/Digital electronics` `Game Development` `Graphic Design` `Web Applications`
+ 
+ **🎓 Education:** Tomas Bata University - Faculty of Applied Informatics
+ 
+ **💻 My favorite languages: ` C++ ` ` C ` ` JAVA `**
+ 
+ **Hobby:**
+ `🛩️ Drones & planes`
+ `🛴 Electric scooters`
+ `🤖 Robots`
+ `🍣 Sushi`
+ `💻 Games`
+ `🃏 Poker`
+ `🎆 Pyrotechnics`
+ `🏊 Swimming`
+ 
 <div align="center">
 	<h1 style="border-bottom: none;">Skills <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px></h1>
 </div>
 
 <div align="">
-	<h3 style="border-bottom: none;">Programming languages</h2>
+	<h3 style="border-bottom: none;">💻 Programming languages</h2>
 	<img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="c++">
 	<img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="c">
 	<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="java">
@@ -50,7 +51,7 @@
 </div>
 
 <div align="">
-	<h3 style="border-bottom: none;">Frameworks & Technology</h2>
+	<h3 style="border-bottom: none;">🌐 Frameworks & Technology</h2>
 	<img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white" alt="qt">
 	<img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt=".Net">
 	<img src="https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl" alt="OpenGL">
@@ -63,7 +64,7 @@
 </div>
 
 <div align="">
-    <h3 style="border-bottom: none;">IDEs &amp; Tools</h2>
+    <h3 style="border-bottom: none;">🛠️ IDEs &amp; Tools</h2>
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&amp;logo=visual-studio-code&amp;logoColor=white" alt="Visual Studio Code">
     <img src="https://img.shields.io/badge/QtCreator-%23217346.svg?style=for-the-badge&amp;logo=Qt&amp;logoColor=white" alt="QtCreator">
     <img src="https://img.shields.io/badge/PlatformIO-%23F5792A.svg?style=for-the-badge&amp;logoColor=white" alt="PlatformIO">
@@ -75,7 +76,7 @@
 </div>
 
 <div align="">
-	<h3 style="border-bottom: none;">Operating System</h2>
+	<h3 style="border-bottom: none;">🖥️ Operating System</h2>
 	<img src="https://img.shields.io/badge/Pop!_OS-48B9C7?style=for-the-badge&logo=Pop!_OS&logoColor=white" alt="popos">
 	<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="ubuntu">
 	<img src="https://img.shields.io/badge/-KUbuntu-%230079C1?style=for-the-badge&logo=kubuntu&logoColor=white" alt="kubuntu">
@@ -85,7 +86,7 @@
 </div>
 
 <div align="">
-	<h3 style="border-bottom: none;">Game Development & Graphic Design</h2>
+	<h3 style="border-bottom: none;">🎮🎨 Game Development & Graphic Design</h2>
 	<img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white" alt="unity">
 	<img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="blender">
 	<img src="https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine" alt="godot">
@@ -119,8 +120,3 @@
 		</tr>
 	</table>
 </div>
-
-<p align="center">			
-	<img width="47%" src="https://github-readme-stats.vercel.app/api?username=0xMartin&show_icons=true&theme=dracula&count_private=true" alt="0xMartin">
-	<img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=0xMartin&theme=dracula&count_private=true" alt="0xMartin">
-</p>
