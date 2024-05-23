@@ -95,8 +95,6 @@
 	<img src="https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white" alt="after effects">
 </div>
 
----
-
 <div align="center">
 	<h1 style="border-bottom: none;">📊 Github Stats</h1>
 </div>
