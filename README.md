@@ -1,7 +1,6 @@
 <img src="animation.gif" width="100%">
 
 <div align="center">
-	<h1 style="border-bottom: none;">Hi there! <img src="./Hi.gif" width="35" /></h1>
 	<img src="https://komarev.com/ghpvc/?username=0xMartin&color=blue" alt="Profile views">
 	<a href="https://github.com/0xMartin">
 		<img src="https://img.shields.io/github/followers/0xMartin?label=Follow&style=social" alt="Github">
