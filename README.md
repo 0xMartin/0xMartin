@@ -1,4 +1,4 @@
-<img src="animation.gif" width="100%">
+<img src="banner.png" width="100%">
 
 <div align="center">
 	<img src="https://komarev.com/ghpvc/?username=0xMartin&color=blue" alt="Profile views">
