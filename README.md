@@ -22,7 +22,7 @@
  
  **🎓 Education:** Tomas Bata University - Faculty of Applied Informatics
  
- **💻 My favorite languages: ` C/C++ `, ` JAVA `, ` Lua ` **
+ **💻 My favorite languages: ` C/C++ `, ` JAVA `, ` Lua `**
  
  **Hobby:**
  `🛩️ Drones & planes`
