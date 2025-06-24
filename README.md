@@ -89,4 +89,9 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 ---
 
 <!--START_SECTION:waka-->
+
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
