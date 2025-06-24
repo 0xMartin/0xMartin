@@ -18,7 +18,7 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
  
 **🎓 Education:** Tomas Bata University - Faculty of Applied Informatics
  
-**💻 My favorite languages: ` C/C++ `, ` JAVA `, ` Lua `**
+**💻 My favorite languages: ` C++ `, ` Java `, ` Lua `**
  
 **Hobby:**
  `🛩️ Drones & planes`
@@ -37,7 +37,7 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 </h1>
 
 <div align="">
-	<h3 style="border-bottom: none;">💻 Programming languages</h2>
+	<h3 style="border-bottom: none;">💻 Programming languages</h3>
 	<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="java">
 	<img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="c++">
 	<img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="c">
@@ -48,7 +48,7 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 </div>
 
 <div align="">
-	<h3 style="border-bottom: none;">🌐 Frameworks & Technology</h2>
+	<h3 style="border-bottom: none;">🌐 Frameworks & Technology</h3>
 	<img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white" alt="qt">
 	<img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" alt="Spring">
 	<img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook">
@@ -65,7 +65,7 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 </div>
 
 <div align="">
-    <h3 style="border-bottom: none;">🛠️ IDEs &amp; Tools</h2>
+    <h3 style="border-bottom: none;">🛠️ IDEs &amp; Tools</h3>
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code">
     <img src="https://img.shields.io/badge/QtCreator-%23217346.svg?style=for-the-badge&amp;logo=Qt&amp;logoColor=white" alt="QtCreator">
     <img src="https://img.shields.io/badge/PlatformIO-%23222.svg?style=for-the-badge&logo=platformio&logoColor=%23f5822a" alt="PlatformIO">
@@ -78,7 +78,7 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 </div>
 
 <div align="">
-	<h3 style="border-bottom: none;">🎮🎨 Game Development & Graphic Design</h2>
+	<h3 style="border-bottom: none;">🎮🎨 Game Development & Graphic Design</h3>
 	<img src="https://img.shields.io/badge/roblox%20studio-%23000000.svg?style=for-the-badge&logo=roblox&logoColor=white" alt="roblox studio">
 	<img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white" alt="unity">
 	<img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="blender">
