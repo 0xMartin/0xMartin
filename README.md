@@ -85,3 +85,8 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 	<img src="https://img.shields.io/badge/affinityphoto-%237E4DD2.svg?style=for-the-badge&logo=affinity-photo&logoColor=white" alt="affinity photo">
 	<img src="https://img.shields.io/badge/DaVinci%20Resolve-512CFF.svg?style=for-the-badge&logo=DaVinci%20Resolve&logoColor=white" alt="DaVinci Resolve">
 </div>
+
+---
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
