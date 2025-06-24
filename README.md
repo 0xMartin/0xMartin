@@ -7,24 +7,20 @@
 	</a>
 </div>
 
-<div align="center">
-	<h1 style="border-bottom: none;">
-		<img src="./Developer.gif" width="45" /> About Me
-	</h1>
-</div>
+<h1 style="border-bottom: none;">
+	<img src="./Developer.gif" width="45" /> About Me
+</h1>
 
 
- ‍**💻 Software and hardware engineer**
+Hello! I'm a passionate **software and hardware engineer** with a deep curiosity for how things work, both in technology and the world around us. My journey in tech began early and has been driven by a genuine enjoyment for exploring and learning every day. I love transforming ideas into tangible projects.
+
+**🎯 What I doing:** `Desktop App Development` `Embedded App Development` `Circuit/PCB Design` `Game Development` `Server App Development`
  
- **🎯 I primarily develop desktop applications and embedded system applications**
+**🎓 Education:** Tomas Bata University - Faculty of Applied Informatics
  
- **🌌 What else am I doing:** `Circuit/PCB design` `Analog/Digital electronics` `Game Development` `Graphic Design` `Web Applications`
+**💻 My favorite languages: ` C/C++ `, ` JAVA `, ` Lua `**
  
- **🎓 Education:** Tomas Bata University - Faculty of Applied Informatics
- 
- **💻 My favorite languages: ` C/C++ `, ` JAVA `, ` Lua `**
- 
- **Hobby:**
+**Hobby:**
  `🛩️ Drones & planes`
  `🛴 Electric scooters`
  `🤖 Robots`
@@ -35,9 +31,10 @@
  `🎆 Pyrotechnics`
  `🏊 Swimming`
  
-<div align="center">
-	<h1 style="border-bottom: none;">Skills <img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px></h1>
-</div>
+<h1 style="border-bottom: none;">
+	<img src = "https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width = 32px> 
+	Main Tech Stack
+</h1>
 
 <div align="">
 	<h3 style="border-bottom: none;">💻 Programming languages</h2>
@@ -63,20 +60,17 @@
 	<img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white" alt="Keras">
 	<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB">
 	<img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-	<img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
 	<img src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" alt="gradle">
 	<img src="https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white" alt="cmake">
 </div>
 
 <div align="">
     <h3 style="border-bottom: none;">🛠️ IDEs &amp; Tools</h2>
-    <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&amp;logo=visual-studio-code&amp;logoColor=white" alt="Visual Studio Code">
+    <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code">
     <img src="https://img.shields.io/badge/QtCreator-%23217346.svg?style=for-the-badge&amp;logo=Qt&amp;logoColor=white" alt="QtCreator">
     <img src="https://img.shields.io/badge/PlatformIO-%23222.svg?style=for-the-badge&logo=platformio&logoColor=%23f5822a" alt="PlatformIO">
     <img src="https://img.shields.io/badge/EasyEda-%230288D1.svg?style=for-the-badge&amp;logoColor=white" alt="EasyEda">
     <img src="https://img.shields.io/badge/Multisim-%230056D2.svg?style=for-the-badge&amp;logoColor=white" alt="Multisim">
-    <img src="https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white" alt="android studio">
-    <img src="https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white" alt="Xcode">
     <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git">
     <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="docker">
     <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white" alt="Azure">
@@ -89,31 +83,5 @@
 	<img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white" alt="unity">
 	<img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="blender">
 	<img src="https://img.shields.io/badge/affinityphoto-%237E4DD2.svg?style=for-the-badge&logo=affinity-photo&logoColor=white" alt="affinity photo">
-	<img src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white" alt="photoshop">
-	<img src="https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white" alt="premiere pro">
-	<img src="https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white" alt="after effects">
-</div>
-
-<div align="center">
-	<h1 style="border-bottom: none;">📊 Github Stats</h1>
-</div>
-
-<p align="center">
-   <img src="https://github-readme-activity-graph.vercel.app/graph?username=0xMartin&bg_color=241f31&color=c061cb&line=9141ac&point=dc8add&area=true&hide_border=true" />
-</p>
-
-
-<div align="center" width="100%">
-	<table cellpadding="0" width="100%">
-	  	<tr style="padding: 0">
-			<td valign="top">
-				<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xMartin&langs_count=8&layout=donut-vertical&hide=css,scss,html,jupyter%20notebook,mathematica&theme=dracula" alt="0xMartin">
-			</td>
-			<td valign="top">
-				<p align="center">
-					<img width="90%" src="circ.gif">
-				</p>
-			</td>  	  
-		</tr>
-	</table>
+	<img src="https://img.shields.io/badge/DaVinci%20Resolve-512CFF.svg?style=for-the-badge&logo=DaVinci%20Resolve&logoColor=white" alt="DaVinci Resolve">
 </div>
