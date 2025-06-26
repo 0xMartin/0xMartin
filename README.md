@@ -91,11 +91,14 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 <!--START_SECTION:waka-->
 
 ```rust
-From: 30 May 2023 - To: 24 June 2025
+From: 30 May 2023 - To: 25 June 2025
 
-Total Time: 0 secs
+Total Time: 2 hrs 39 mins
 
-No activity tracked
+Python   1 hr 28 mins    >>>>>>>>>>>>>------------   52.94 %
+Luau     33 mins         >>>>>--------------------   19.76 %
+C++      12 mins         >>-----------------------   07.18 %
+Other    8 mins          >------------------------   04.92 %
 ```
 
 <!--END_SECTION:waka-->
