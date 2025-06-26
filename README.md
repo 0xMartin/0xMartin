@@ -89,7 +89,7 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 ---
 
 <h1 style="border-bottom: none;">
-	📊 My stats
+	📊 My Stats
 </h1>
 
 <!--START_SECTION:waka-->
