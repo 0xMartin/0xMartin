@@ -14,7 +14,7 @@
 
 Hello! I'm a passionate **software and hardware engineer** with a deep curiosity for how things work, both in technology and the world around us. My journey in tech began early and has been driven by a genuine enjoyment for exploring and learning every day. I love transforming ideas into tangible projects.
 
-**🎯 What I doing:** `Desktop App Development` `Embedded App Development` `Circuit/PCB Design` `Game Development` `Server App Development`
+**🎯 What I doing:** `Desktop App Development` `Embedded App Development` `Circuit/PCB Design` `Game Development` `AI Development` `Backend App Development`
  
 **🎓 Education:** Tomas Bata University - Faculty of Applied Informatics
  
