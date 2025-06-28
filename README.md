@@ -101,15 +101,16 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 <!--START_SECTION:waka-->
 
 ```rust
-From: 30 May 2023 - To: 26 June 2025
+From: 30 May 2023 - To: 27 June 2025
 
-Total Time: 11 hrs 30 mins
+Total Time: 16 hrs 15 mins
 
-Python       7 hrs 28 mins   >>>>>>>>>>>>>>>>---------   62.27 %
-Markdown     1 hr 51 mins    >>>>---------------------   15.44 %
-Text         51 mins         >>-----------------------   07.13 %
-Luau         33 mins         >------------------------   04.65 %
-Other        28 mins         >------------------------   03.99 %
+Python       10 hrs 37 mins  >>>>>>>>>>>>>>>>---------   63.47 %
+Markdown     2 hrs 25 mins   >>>>---------------------   14.49 %
+Text         53 mins         >------------------------   05.28 %
+C++          50 mins         >------------------------   04.98 %
+Luau         33 mins         >------------------------   03.33 %
+Other        28 mins         >------------------------   02.86 %
 ```
 
 <!--END_SECTION:waka-->
