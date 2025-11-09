@@ -101,16 +101,16 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 <!--START_SECTION:waka-->
 
 ```rust
-From: 30 May 2023 - To: 06 November 2025
+From: 30 May 2023 - To: 07 November 2025
 
-Total Time: 391 hrs 40 mins
+Total Time: 392 hrs 27 mins
 
-C++                  223 hrs 30 mins >>>>>>>>>>>>>>-----------   55.98 %
-Python               84 hrs 14 mins  >>>>>--------------------   21.10 %
-TeX                  12 hrs 46 mins  >------------------------   03.20 %
-Java                 12 hrs 31 mins  >------------------------   03.14 %
-C                    10 hrs 19 mins  >------------------------   02.59 %
-Other                7 hrs 34 mins   -------------------------   01.90 %
+C++                  223 hrs 40 mins >>>>>>>>>>>>>>-----------   55.92 %
+Python               84 hrs 14 mins  >>>>>--------------------   21.06 %
+Java                 12 hrs 49 mins  >------------------------   03.21 %
+TeX                  12 hrs 46 mins  >------------------------   03.19 %
+C                    10 hrs 19 mins  >------------------------   02.58 %
+Other                7 hrs 34 mins   -------------------------   01.89 %
 ```
 
 <!--END_SECTION:waka-->
