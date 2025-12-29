@@ -101,7 +101,7 @@ Hello! I'm a passionate **software and hardware engineer** with a deep curiosity
 <!--START_SECTION:waka-->
 
 ```rust
-From: 30 May 2023 - To: 26 December 2025
+From: 30 May 2023 - To: 27 December 2025
 
 Total Time: 449 hrs 55 mins
 
