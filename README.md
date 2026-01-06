@@ -90,6 +90,7 @@ Faculty of Applied Informatics
 ![Raspberry Pi](https://img.shields.io/badge/RPi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Shell](https://img.shields.io/badge/Shell-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white)
+![EasyEDA](https://img.shields.io/badge/EasyEDA-%230288D1.svg?style=flat-square&logoColor=white&logo=easyeda)
 
 </td>
 </tr>
@@ -136,9 +137,8 @@ Faculty of Applied Informatics
 <td valign="top" width="33%">
 
 **🎨 Design**  
-![Affinity Photo](https://img.shields.io/badge/Affinity-%237E4DD2.svg?style=flat-square&logo=affinity-photo&logoColor=white)
+![Affinity Photo](https://img.shields.io/badge/Affinity-%237E4DD2.svg?style=flat-square&logo=affine&logoColor=white)
 ![DaVinci](https://img.shields.io/badge/DaVinci-512CFF.svg?style=flat-square&logo=DaVinci%20Resolve&logoColor=white)
-![EasyEDA](https://img.shields.io/badge/EasyEDA-%230288D1.svg?style=flat-square&logoColor=white)
 
 </td>
 <td valign="top" width="33%">
