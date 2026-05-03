@@ -741,7 +741,11 @@ h1 {
 
 @media (max-width: 900px) {
   .topbar {
-    align-items: flex-start;
+    align-items: center;
+  }
+
+  .topbar-floating {
+    align-items: center;
   }
 
   .menu-toggle {
@@ -750,6 +754,7 @@ h1 {
 
   .topbar-nav-wrap {
     margin-left: auto;
+    align-items: center;
   }
 
   .topbar-floating {
