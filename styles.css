@@ -102,33 +102,19 @@ body {
   color: var(--text);
   appearance: none;
   -webkit-appearance: none;
-  position: relative;
-}
-
-.menu-toggle .menu-icon,
-.menu-toggle .close-icon {
-  position: absolute;
-  inset: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   line-height: 1;
-  transition: opacity 0.18s ease;
+  font-weight: 700;
 }
 
-.menu-toggle .close-icon {
-  opacity: 0;
+.menu-toggle::before {
+  content: "\2630";
 }
 
-.topbar.menu-open .menu-toggle .menu-icon,
-.topbar-floating.menu-open .menu-toggle .menu-icon {
-  opacity: 0;
-}
-
-.topbar.menu-open .menu-toggle .close-icon,
-.topbar-floating.menu-open .menu-toggle .close-icon {
-  opacity: 1;
+.topbar.menu-open .menu-toggle::before,
+.topbar-floating.menu-open .menu-toggle::before {
+  content: "\00D7";
+  font-size: 1.7rem;
 }
 
 .brand {
@@ -753,7 +739,7 @@ h1 {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 900px) {
   .topbar {
     align-items: flex-start;
   }
@@ -798,7 +784,9 @@ h1 {
   .topbar-floating.menu-open nav {
     display: flex;
   }
+}
 
+@media (max-width: 640px) {
   nav a {
     font-size: 0.92rem;
     padding: 0.7rem 0.8rem;

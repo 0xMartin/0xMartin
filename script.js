@@ -2,6 +2,7 @@ const USERNAME = "0xMartin";
 const PROJECT_LIMIT = 9;
 const TOP_PROJECTS = window.TOP_PROJECTS_CONFIG || [];
 let topbarMenuIdCounter = 0;
+const MOBILE_NAV_BREAKPOINT = 900;
 
 const fallbackProjects = [
   {
@@ -340,9 +341,31 @@ function setupTopbarMenu(topbar) {
     topbar.classList.remove("menu-open");
     menuToggle.setAttribute("aria-expanded", "false");
     menuToggle.setAttribute("aria-label", "Open navigation menu");
+    if (window.innerWidth <= MOBILE_NAV_BREAKPOINT) {
+      nav.style.display = "none";
+    }
+  };
+
+  const syncResponsiveMenuState = () => {
+    const isCompact = window.innerWidth <= MOBILE_NAV_BREAKPOINT;
+    topbar.classList.toggle("compact-nav", isCompact);
+
+    if (isCompact) {
+      menuToggle.style.display = "inline-flex";
+      nav.style.display = topbar.classList.contains("menu-open") ? "flex" : "none";
+      return;
+    }
+
+    closeMenu();
+    menuToggle.style.display = "none";
+    nav.style.removeProperty("display");
   };
 
   menuToggle.addEventListener("click", () => {
+    if (window.innerWidth > MOBILE_NAV_BREAKPOINT) {
+      return;
+    }
+
     const willOpen = !topbar.classList.contains("menu-open");
     topbar.classList.toggle("menu-open", willOpen);
     menuToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
@@ -350,6 +373,7 @@ function setupTopbarMenu(topbar) {
       "aria-label",
       willOpen ? "Close navigation menu" : "Open navigation menu"
     );
+    nav.style.display = willOpen ? "flex" : "none";
   });
 
   nav.querySelectorAll("a").forEach((link) => {
@@ -357,16 +381,16 @@ function setupTopbarMenu(topbar) {
   });
 
   document.addEventListener("click", (event) => {
-    if (!topbar.contains(event.target)) {
+    if (window.innerWidth <= MOBILE_NAV_BREAKPOINT && !topbar.contains(event.target)) {
       closeMenu();
     }
   });
 
   window.addEventListener("resize", () => {
-    if (window.innerWidth > 640) {
-      closeMenu();
-    }
+    syncResponsiveMenuState();
   });
+
+  syncResponsiveMenuState();
 }
 
 document.getElementById("year").textContent = new Date().getFullYear();
