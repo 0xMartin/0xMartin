@@ -385,6 +385,11 @@ function setupTopbarMenu(topbar) {
     }
   });
 
+  menuToggle.addEventListener("click", (event) => {
+    event.preventDefault();
+    toggleMenu();
+  });
+
   nav.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", closeMenu);
   });
