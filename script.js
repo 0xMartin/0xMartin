@@ -1,6 +1,7 @@
 const USERNAME = "0xMartin";
 const PROJECT_LIMIT = 9;
 const TOP_PROJECTS = window.TOP_PROJECTS_CONFIG || [];
+let topbarMenuIdCounter = 0;
 
 const fallbackProjects = [
   {
@@ -303,11 +304,15 @@ function setupFloatingTopbar() {
     return;
   }
 
+  setupTopbarMenu(staticTopbar);
+
   const floatingTopbar = staticTopbar.cloneNode(true);
   floatingTopbar.classList.remove("container", "reveal", "is-visible");
   floatingTopbar.classList.add("topbar-floating");
   floatingTopbar.setAttribute("aria-hidden", "true");
   document.body.appendChild(floatingTopbar);
+
+  setupTopbarMenu(floatingTopbar);
 
   const toggleTopbar = () => {
     const shouldShow = window.scrollY > 300;
@@ -317,6 +322,51 @@ function setupFloatingTopbar() {
 
   toggleTopbar();
   window.addEventListener("scroll", toggleTopbar, { passive: true });
+}
+
+function setupTopbarMenu(topbar) {
+  const menuToggle = topbar.querySelector(".menu-toggle");
+  const nav = topbar.querySelector("nav");
+
+  if (!menuToggle || !nav) {
+    return;
+  }
+
+  topbarMenuIdCounter += 1;
+  nav.id = `site-navigation-${topbarMenuIdCounter}`;
+  menuToggle.setAttribute("aria-controls", nav.id);
+
+  const closeMenu = () => {
+    topbar.classList.remove("menu-open");
+    menuToggle.setAttribute("aria-expanded", "false");
+    menuToggle.setAttribute("aria-label", "Open navigation menu");
+  };
+
+  menuToggle.addEventListener("click", () => {
+    const willOpen = !topbar.classList.contains("menu-open");
+    topbar.classList.toggle("menu-open", willOpen);
+    menuToggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
+    menuToggle.setAttribute(
+      "aria-label",
+      willOpen ? "Close navigation menu" : "Open navigation menu"
+    );
+  });
+
+  nav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", closeMenu);
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!topbar.contains(event.target)) {
+      closeMenu();
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 640) {
+      closeMenu();
+    }
+  });
 }
 
 document.getElementById("year").textContent = new Date().getFullYear();

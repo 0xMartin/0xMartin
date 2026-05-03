@@ -52,6 +52,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 0;
+  position: relative;
+  z-index: 20;
 }
 
 .topbar-floating {
@@ -72,10 +74,57 @@ body {
   transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
+.topbar-nav-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  position: relative;
+  z-index: 21;
+}
+
 .topbar-floating.is-visible {
   transform: translate(-50%, 0);
   opacity: 1;
   pointer-events: auto;
+}
+
+.menu-toggle {
+  display: none;
+  width: 2.9rem;
+  height: 2.9rem;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: rgba(255, 255, 255, 0.04);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.28rem;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.menu-toggle span {
+  width: 1rem;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.topbar.menu-open .menu-toggle span:nth-child(1),
+.topbar-floating.menu-open .menu-toggle span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.topbar.menu-open .menu-toggle span:nth-child(2),
+.topbar-floating.menu-open .menu-toggle span:nth-child(2) {
+  opacity: 0;
+}
+
+.topbar.menu-open .menu-toggle span:nth-child(3),
+.topbar-floating.menu-open .menu-toggle span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
 }
 
 .brand {
@@ -701,8 +750,16 @@ h1 {
 }
 
 @media (max-width: 640px) {
-  nav {
-    gap: 0.8rem;
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .topbar-nav-wrap {
+    margin-left: auto;
   }
 
   .topbar-floating {
@@ -714,18 +771,54 @@ h1 {
     font-size: 0.85rem;
   }
 
+  .topbar nav,
   .topbar-floating nav {
-    gap: 0.65rem;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    position: absolute;
+    top: calc(100% + 0.65rem);
+    right: 0;
+    display: none;
+    min-width: min(18rem, calc(100vw - 2rem));
+    padding: 0.65rem;
+    border: 1px solid var(--line);
+    border-radius: 1rem;
+    background: rgba(10, 13, 19, 0.97);
+    backdrop-filter: blur(12px);
+    box-shadow: var(--shadow);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.2rem;
+    z-index: 5;
+  }
+
+  .topbar.menu-open nav,
+  .topbar-floating.menu-open nav {
+    display: flex;
   }
 
   nav a {
-    font-size: 0.88rem;
+    font-size: 0.92rem;
+    padding: 0.7rem 0.8rem;
+    border-radius: 0.8rem;
+  }
+
+  .topbar nav a:hover,
+  .topbar-floating nav a:hover {
+    background: rgba(255, 255, 255, 0.05);
   }
 
   .hero-copy {
     padding: 1.35rem;
+  }
+
+  .hero-visual {
+    min-height: 0;
+  }
+
+  .hero-visual img {
+    display: block;
+    height: auto;
+    aspect-ratio: auto;
+    object-fit: contain;
   }
 
   .about-card {
