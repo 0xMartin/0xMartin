@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Martin Krcma (0xMartin) - software and hardware engineer."
+    />
+    <title>Martin Krcma | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-layer" aria-hidden="true"></div>
+
+    <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true">
+      <div class="lightbox-content">
+        <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
+        <img id="lightbox-image" src="" alt="Full size project image" />
+      </div>
+    </div>
+
+    <header class="topbar container reveal">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <span class="brand-mark">MK</span>
+        <span class="brand-text">0xM4R71N</span>
+      </a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#top-projects">Top Projects</a>
+        <a href="#open-source-projects">Open Source</a>
+        <a href="https://github.com/0xMartin" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero container reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Software x Hardware Engineer</p>
+          <h1>Martin Krcma</h1>
+          <p class="subtitle">
+            I build practical products across desktop apps, embedded systems,
+            backend services and machine learning.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#top-projects">View Projects</a>
+            <a class="btn btn-ghost" href="https://github.com/0xMartin" target="_blank" rel="noreferrer">
+              Visit GitHub
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="banner.png" alt="Personal technology banner" />
+        </div>
+      </section>
+
+      <section id="about" class="about container reveal">
+        <div class="about-card">
+          <img
+            class="avatar"
+            src="https://github.com/0xMartin.png"
+            alt="Martin profile avatar"
+            width="128"
+            height="128"
+          />
+          <div>
+            <h2>About Me</h2>
+            <p>
+              I am a curious engineer focused on turning ideas into robust,
+              useful systems. My stack spans C++, Java, embedded electronics,
+              cloud-ready services and AI-driven tooling.
+            </p>
+            <ul class="tags" aria-label="Main focus areas">
+              <li>Desktop Apps</li>
+              <li>Embedded and PCB</li>
+              <li>Backend Systems</li>
+              <li>AI and ML</li>
+              <li>Game Development</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="top-projects" class="top-projects container reveal">
+        <div class="section-head">
+          <h2>My Top Projects</h2>
+          <p>Selected projects with detailed context, screenshots and links.</p>
+        </div>
+        <div id="top-projects-list" class="top-projects-list" aria-live="polite"></div>
+      </section>
+
+      <section id="open-source-projects" class="projects container reveal">
+        <div class="section-head">
+          <h2>Popular Open Source Projects</h2>
+          <p>Automatically loaded from GitHub and sorted by stars.</p>
+        </div>
+        <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="footer container reveal">
+      <p>
+        <span id="year"></span> Martin Krcma. Crafted in code and curiosity.
+      </p>
+      <a href="https://github.com/0xMartin" target="_blank" rel="noreferrer">github.com/0xMartin</a>
+    </footer>
+
+    <script src="top-projects.config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
