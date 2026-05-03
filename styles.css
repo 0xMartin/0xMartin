@@ -233,6 +233,74 @@ h1 {
   color: var(--muted);
 }
 
+.about-meta {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.about-meta-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: 0.87rem;
+  color: var(--muted);
+}
+
+.about-meta-label {
+  color: #d4ddf0;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.about-stack {
+  margin-top: 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 1.1rem;
+  padding: 1.2rem 1.4rem;
+  background: var(--panel-strong);
+  box-shadow: var(--shadow);
+}
+
+.about-stack-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 1rem;
+  letter-spacing: 0.03em;
+}
+
+.about-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.about-stack-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.about-stack-group-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.about-stack-group .tags {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
 .tags {
   list-style: none;
   padding: 0;
