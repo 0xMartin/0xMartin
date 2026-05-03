@@ -289,12 +289,15 @@ function setupReveal() {
         }
       });
     },
-    { threshold: 0.12 }
+    {
+      threshold: 0.04,
+      rootMargin: "0px 0px -6% 0px"
+    }
   );
 
   revealItems.forEach((item, index) => {
     item.setAttribute("data-reveal-init", "true");
-    item.style.transitionDelay = `${Math.min(index * 70, 400)}ms`;
+    item.style.transitionDelay = `${Math.min(index * 24, 120)}ms`;
     observer.observe(item);
   });
 }
@@ -386,13 +389,6 @@ function setupTopbarMenu(topbar) {
   menuToggle.addEventListener("click", (event) => {
     event.preventDefault();
     toggleMenu();
-  });
-
-  menuToggle.addEventListener("pointerup", (event) => {
-    if (event.pointerType === "touch") {
-      event.preventDefault();
-      toggleMenu();
-    }
   });
 
   nav.querySelectorAll("a").forEach((link) => {

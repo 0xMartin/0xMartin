@@ -633,8 +633,8 @@ h1 {
 
 .reveal {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transform: translateY(12px);
+  transition: opacity 0.32s ease, transform 0.32s ease;
 }
 
 .reveal.is-visible {
