@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260504d" />
+    <link rel="stylesheet" href="styles.css?v=20260504e" />
   </head>
   <body>
     <div class="bg-layer" aria-hidden="true"></div>
@@ -43,6 +43,7 @@
           <a href="#about">About</a>
           <a href="#top-projects">Top Projects</a>
           <a href="#open-source-projects">Open Source</a>
+          <a href="#contact">Contact</a>
           <a href="https://github.com/0xMartin" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
       </div>
@@ -65,7 +66,7 @@
           </div>
         </div>
         <div class="hero-visual">
-          <img src="banner.png" alt="Personal technology banner" />
+          <img src="assets/banner.png" alt="Personal technology banner" />
         </div>
       </section>
 
@@ -130,6 +131,35 @@
         </div>
         <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
       </section>
+
+      <section id="contact" class="contact container reveal">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Send a direct message from the form below.</p>
+        </div>
+
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/0xMartin@users.noreply.github.com"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="Portfolio contact form" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="text" name="_honey" class="contact-honey" tabindex="-1" autocomplete="off" />
+
+          <label for="contact-name">Name</label>
+          <input id="contact-name" type="text" name="name" required />
+
+          <label for="contact-email">Email</label>
+          <input id="contact-email" type="email" name="email" required />
+
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" rows="5" required></textarea>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </form>
+      </section>
     </main>
 
     <footer class="footer container reveal">
@@ -139,7 +169,7 @@
       <a href="https://github.com/0xMartin" target="_blank" rel="noreferrer">github.com/0xMartin</a>
     </footer>
 
-    <script src="top-projects.config.js?v=20260504d" data-cfasync="false"></script>
-    <script src="script.js?v=20260504d" data-cfasync="false"></script>
+    <script src="top-projects.config.js?v=20260504e" data-cfasync="false"></script>
+    <script src="script.js?v=20260504e" data-cfasync="false"></script>
   </body>
 </html>

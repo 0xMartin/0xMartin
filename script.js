@@ -42,16 +42,52 @@ const fallbackProjects = [
 const projectsGrid = document.getElementById("projects-grid");
 const topProjectsList = document.getElementById("top-projects-list");
 
-function createHighlights(highlights) {
-  if (!Array.isArray(highlights) || !highlights.length) {
+function createTechnologies(technologies) {
+  if (!Array.isArray(technologies) || !technologies.length) {
     return "";
   }
 
-  const items = highlights
-    .map((item) => `<li>${item}</li>`)
+  const chips = technologies
+    .map((item) => `<span class="top-project-tech-chip">${item}</span>`)
     .join("");
 
-  return `<ul class="top-project-highlights">${items}</ul>`;
+  return `<div class="top-project-technologies" aria-label="Main technologies"><strong>Stack</strong><div class="top-project-tech-list">${chips}</div></div>`;
+}
+
+function formatInlineList(items) {
+  if (!Array.isArray(items) || !items.length) {
+    return "";
+  }
+
+  if (items.length === 1) {
+    return items[0];
+  }
+
+  if (items.length === 2) {
+    return `${items[0]} and ${items[1]}`;
+  }
+
+  return `${items.slice(0, -1).join(", ")}, and ${items[items.length - 1]}`;
+}
+
+function createProjectDetails(project) {
+  const details = [];
+
+  if (project.description) {
+    details.push(project.description);
+  }
+
+  if (Array.isArray(project.highlights) && project.highlights.length) {
+    details.push(
+      `<strong>Key features include</strong> ${formatInlineList(project.highlights)}.`
+    );
+  }
+
+  if (!details.length) {
+    return "";
+  }
+
+  return `<p class="top-project-description">${details.join(" ")}</p>`;
 }
 
 function createGallery(project) {
@@ -203,9 +239,9 @@ function renderTopProjects() {
         <div class="top-project-content">
           <p class="project-period">${project.period || ""}</p>
           <h3>${project.title}</h3>
+          ${createTechnologies(project.technologies)}
           ${linkBlock}
-          <p>${project.description || ""}</p>
-          ${createHighlights(project.highlights)}
+          ${createProjectDetails(project)}
           ${appLinkBlock}
         </div>
       </div>

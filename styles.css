@@ -430,7 +430,7 @@ h1 {
   padding: 0.2rem 0.25rem 0.9rem 0;
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.75rem;
 }
 
 .project-period {
@@ -448,18 +448,51 @@ h1 {
   font-size: clamp(1.2rem, 2.2vw, 1.7rem);
 }
 
+.top-project-technologies {
+  display: grid;
+  gap: 0.45rem;
+  margin: -0.1rem 0 0.15rem;
+}
+
+.top-project-technologies strong {
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.top-project-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.top-project-tech-chip {
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #dce4f5;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 999px;
+  padding: 0.24rem 0.62rem;
+}
+
 .top-project-content p {
   color: var(--muted);
+  margin: 0;
+  line-height: 1.72;
 }
 
 .private-note {
-  margin: 0.35rem 0 0.75rem;
+  margin: 0.1rem 0 0.1rem;
   color: #c8d4eb;
   font-size: 0.9rem;
 }
 
 .company-info {
-  margin: 0.35rem 0 0.75rem;
+  margin: 0.1rem 0 0.1rem;
   color: #c8d4eb;
   font-size: 0.9rem;
 }
@@ -474,14 +507,9 @@ h1 {
   text-decoration: underline;
 }
 
-.top-project-highlights {
-  margin: 0.75rem 0 0;
-  padding-left: 1rem;
-  color: #d7deee;
-}
-
-.top-project-highlights li {
-  margin-bottom: 0.3rem;
+.top-project-description strong {
+  color: #f2f6ff;
+  font-weight: 600;
 }
 
 .top-project-gallery {
@@ -614,6 +642,62 @@ h1 {
 
 .project-link:hover {
   color: var(--accent-soft);
+}
+
+.contact {
+  margin-top: 2.8rem;
+  margin-bottom: 2.8rem;
+}
+
+.contact-form {
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--panel-strong);
+  box-shadow: var(--shadow);
+  padding: 1.2rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.contact-form label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #d7dff0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  font: inherit;
+  padding: 0.72rem 0.85rem;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: rgba(255, 107, 107, 0.65);
+  box-shadow: 0 0 0 3px rgba(255, 42, 69, 0.12);
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.contact-honey {
+  position: absolute;
+  left: -10000px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.contact-form .btn {
+  justify-self: start;
+  margin-top: 0.3rem;
 }
 
 .footer {

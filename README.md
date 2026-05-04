@@ -1,4 +1,4 @@
-<img src="banner.png" width="100%">
+<img src="./assets/banner.png" width="100%">
 
 <div align="center">
 	
@@ -10,7 +10,7 @@
 
 ---
 
-## <img src="./Developer.gif" width="35" /> &nbsp;About Me
+## <img src="./assets/developer.gif" width="35" /> &nbsp;About Me
 
 Hello! I'm a passionate **Software & Hardware Engineer** with a deep curiosity for how things work — both in technology and the world around us. My journey in tech began early and has been driven by a genuine enjoyment for exploring and learning every day. I love transforming ideas into tangible projects.
 
