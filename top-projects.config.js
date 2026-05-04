@@ -8,7 +8,7 @@ window.TOP_PROJECTS_CONFIG = [
     companyName: "SAUCOM s. r. o.",
     companyUrl: "https://www.saucom.cz",
     description:
-      "A <strong>custom slicer built from scratch</strong> for multi-object concrete 3D printing with SAUCOM's proprietary construction robot. It covers the full workflow from print preparation to optimized G-code generation, including advanced parameter tuning, batching logic, and a real-time 2D/3D preview for robotic deposition.",
+      "A <strong>custom slicer built from scratch</strong> for multi-object concrete 3D printing with SAUCOM's proprietary construction robot. The app covers the full workflow from model preparation to optimized G-code generation, adds advanced parameter tuning for robotic deposition, and includes multi-object batching with real-time 2D/3D print preview for reliable on-site operation.",
     highlights: [
       "Full-stack slicer from design to G-code",
       "Advanced parameter tuning for robotics",
@@ -26,7 +26,7 @@ window.TOP_PROJECTS_CONFIG = [
     isPublic: true,
     projectUrl: "https://github.com/0xMartin/IRShark",
     description:
-      "<strong>IRShark</strong> is an Android app for infrared device control, IR signal testing, and fast remote discovery. Built around the Flipper IRDB ecosystem, it works with both parsed and raw protocol data and helps users quickly find matching or universal remotes even when the original controller is missing.",
+      "<strong>IRShark</strong> is an Android app for infrared device control, IR signal testing, and fast remote discovery, built with a Jetpack Compose UI for quick field usage. It is integrated with the Flipper IRDB ecosystem, supports both parsed and raw protocol data, and provides an IR Finder plus remote profile workflow to identify matching or universal remotes when the original controller is missing.",
     highlights: [
       "Jetpack Compose based interface",
       "Parsed and raw protocol handling",
@@ -47,7 +47,7 @@ window.TOP_PROJECTS_CONFIG = [
     companyUrl: "https://fai.utb.cz",
     appUrl: "https://is.robogames.utb.cz/",
     description:
-      "<strong>IS Robogames</strong> is a full competition management platform developed with Tomas Bata University in Zlin for their annual robotics event. It handles participants, teams, robot registrations, category administration, automated evaluation, and the day-to-day operational workflows needed to run the competition reliably.",
+      "<strong>IS Robogames</strong> is a full competition management platform developed with Tomas Bata University in Zlin for their annual robotics event, built on Spring, Keycloak, and React. It handles participant and team registration, robot records, category administration, automated evaluation, and detailed day-to-day operational control needed to run the competition reliably.",
     highlights: [
       "Participant, team, and registration management",
       "Robot records and competition category administration",
@@ -65,7 +65,7 @@ window.TOP_PROJECTS_CONFIG = [
     isPublic: true,
     projectUrl: "https://github.com/0xMartin/Note-Naga-DAW",
     description:
-      "A <strong>DAW-style desktop music production app</strong> built with C++ and Qt. It combines MIDI editing, arrangement, notation-oriented tooling, audio recording, a custom real-time audio engine, and media export in a workflow designed for actual production use.",
+      "A <strong>DAW-style desktop music production app</strong> built with C++ and Qt, designed around a producer-focused desktop workflow. It combines advanced MIDI and notation tooling, multitrack arrangement, audio recording powered by a custom real-time audio engine, and export features for practical end-to-end music production.",
     highlights: [
       "Custom real-time audio engine",
       "Advanced MIDI and notation tooling",
@@ -83,7 +83,7 @@ window.TOP_PROJECTS_CONFIG = [
     isPublic: true,
     projectUrl: "https://github.com/0xMartin/TwinWave",
     description:
-      "<strong>TwinWave</strong> is a compact dual-radio GPIO expansion module for Flipper Zero that combines ESP32-PICO-V3-02 Wi-Fi and TI CC1101 Sub-GHz on a single custom PCB. The board is designed for practical field deployment with replaceable SMA antennas, independent power switching for both radios, and straightforward ESP32 Marauder flashing and maintenance workflows.",
+      "<strong>TwinWave</strong> is a compact dual-radio GPIO expansion module for Flipper Zero that combines ESP32-PICO-V3-02 Wi-Fi and TI CC1101 Sub-GHz on a single custom PCB. The hardware integration is tuned for practical field deployment with replaceable SMA antennas, independent power switching for both radios, and straightforward ESP32 Marauder flashing and maintenance workflows.",
     highlights: [
       "Custom PCB and hardware integration",
       "Wi-Fi + Sub-GHz radio workflow",
@@ -101,7 +101,7 @@ window.TOP_PROJECTS_CONFIG = [
     isPublic: false,
     projectUrl: "",
     description:
-      "A <strong>compact 4-channel MIDI Tesla Coil interrupter</strong> designed for flexible musical coil control. It supports both USB MIDI and classic DIN MIDI input, independent note routing per channel, and per-output tuning of frequency, duty cycle, and pulse limits so each channel can be matched to different coil characteristics.",
+      "A <strong>compact 4-channel MIDI Tesla Coil interrupter</strong> designed for flexible musical coil control with both USB MIDI and classic DIN MIDI input. It supports independent note routing per channel, per-output tuning of frequency, duty cycle, and on-time pulse limits, and a fiber-optic signal path to maintain strong electrical isolation in high-voltage setups.",
     highlights: [
       "MIDI over DIN and USB",
       "Per-channel frequency, duty cycle and on-time limits",

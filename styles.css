@@ -307,7 +307,17 @@ h1 {
 }
 
 .hero-aside h2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   font-size: clamp(1.2rem, 2vw, 1.55rem);
+}
+
+.hero-aside h2 i,
+.section-head h2 i {
+  color: var(--accent-soft);
+  font-size: 0.85em;
+  line-height: 1;
 }
 
 .hero-tags {
@@ -444,11 +454,20 @@ h1 {
 
 .about-meta-item {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
   gap: 0.5rem;
   font-size: 0.87rem;
   color: var(--muted);
+}
+
+.about-meta-item > :first-child {
+  flex: 0 0 auto;
+}
+
+.about-meta-item > :last-child {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .about-meta-label {
@@ -732,6 +751,12 @@ h1 {
 .section-head p {
   margin: 0.55rem 0 1rem;
   color: var(--muted);
+}
+
+.section-head h2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
 }
 
 .projects-grid {

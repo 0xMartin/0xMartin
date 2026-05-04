@@ -71,23 +71,11 @@ function formatInlineList(items) {
 }
 
 function createProjectDetails(project) {
-  const details = [];
-
-  if (project.description) {
-    details.push(project.description);
-  }
-
-  if (Array.isArray(project.highlights) && project.highlights.length) {
-    details.push(
-      `<strong>Key features include</strong> ${formatInlineList(project.highlights)}.`
-    );
-  }
-
-  if (!details.length) {
+  if (!project.description) {
     return "";
   }
 
-  return `<p class="top-project-description">${details.join(" ")}</p>`;
+  return `<p class="top-project-description">${project.description}</p>`;
 }
 
 function createGallery(project) {
