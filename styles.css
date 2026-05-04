@@ -859,6 +859,27 @@ h1 {
   margin-top: 0.3rem;
 }
 
+.contact-status {
+  margin: 0.25rem 0 0;
+  padding: 0.58rem 0.72rem;
+  border-radius: 0.72rem;
+  border: 1px solid transparent;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.contact-status.success {
+  color: #d8ffe7;
+  border-color: rgba(75, 204, 124, 0.45);
+  background: rgba(75, 204, 124, 0.14);
+}
+
+.contact-status.error {
+  color: #ffd2d2;
+  border-color: rgba(255, 107, 107, 0.45);
+  background: rgba(255, 42, 69, 0.14);
+}
+
 .footer {
   padding-bottom: 2.2rem;
   border-top: 1px solid var(--line);

@@ -444,8 +444,72 @@ function setupTopbarMenu(topbar) {
   syncResponsiveMenuState();
 }
 
+function setupContactForm() {
+  const form = document.getElementById("contact-form");
+  const status = document.getElementById("contact-status");
+
+  if (!form || !status) {
+    return;
+  }
+
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const defaultBtnText = submitBtn ? submitBtn.textContent : "Send Message";
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    const action = form.getAttribute("action") || "";
+    const endpoint = action.replace("formsubmit.co/", "formsubmit.co/ajax/");
+    const formData = new FormData(form);
+
+    status.hidden = true;
+    status.className = "contact-status";
+
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Sending...";
+    }
+
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: {
+          Accept: "application/json"
+        },
+        body: formData
+      });
+
+      const result = await response.json();
+      if (!response.ok || result.success !== "true") {
+        throw new Error(result.message || `Form submit failed with ${response.status}`);
+      }
+
+      status.textContent = "Email was sent successfully. Thank you for your message.";
+      status.classList.add("success");
+      status.hidden = false;
+      form.reset();
+    } catch (error) {
+      console.error("Contact form submit failed:", error);
+      status.textContent = "Sending failed. Please try again in a moment.";
+      status.classList.add("error");
+      status.hidden = false;
+    } finally {
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.textContent = defaultBtnText;
+      }
+    }
+  });
+}
+
 document.getElementById("year").textContent = new Date().getFullYear();
 renderTopProjects();
 setupReveal();
 setupFloatingTopbar();
 fetchRepositories();
+setupContactForm();
