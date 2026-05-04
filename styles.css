@@ -61,13 +61,14 @@ body {
 
 .topbar-floating {
   position: fixed;
-  top: 0.7rem;
+  top: 0;
   left: 50%;
-  transform: translate(-50%, -135%);
+  transform: translate(-50%, -112%);
   width: min(1120px, 92vw);
-  padding: 0.8rem 1rem;
+  padding: 0.95rem 1rem 0.8rem;
   border: 1px solid var(--line);
-  border-radius: 0.95rem;
+  border-top: none;
+  border-radius: 0 0 1.05rem 1.05rem;
   background: rgba(10, 13, 19, 0.9);
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow);
@@ -1057,8 +1058,9 @@ h1 {
   }
 
   .topbar-floating {
-    top: 0.45rem;
-    padding: 0.62rem 0.72rem;
+    top: 0;
+    padding: 0.72rem 0.72rem 0.62rem;
+    border-radius: 0 0 0.95rem 0.95rem;
   }
 
   .topbar-floating .brand-text {
