@@ -14,7 +14,11 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260504e" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260504g" />
   </head>
   <body>
     <div class="bg-layer" aria-hidden="true"></div>
@@ -50,70 +54,75 @@
     </header>
 
     <main id="home">
-      <section class="hero container reveal">
-        <div class="hero-copy">
-          <p class="eyebrow">Software x Hardware Engineer</p>
-          <h1>Martin Krcma</h1>
-          <p class="subtitle">
-            I build practical products across desktop apps, embedded systems,
-            backend services and machine learning.
-          </p>
-          <div class="hero-cta">
-            <a class="btn btn-primary" href="#top-projects">View Projects</a>
-            <a class="btn btn-ghost" href="https://github.com/0xMartin" target="_blank" rel="noreferrer">
-              Visit GitHub
-            </a>
+      <section id="about" class="hero container reveal">
+        <div class="hero-fusion">
+          <div class="hero-visual">
+            <img src="assets/banner.png" alt="Personal technology banner" />
           </div>
-        </div>
-        <div class="hero-visual">
-          <img src="assets/banner.png" alt="Personal technology banner" />
-        </div>
-      </section>
-
-      <section id="about" class="about container reveal">
-        <div class="about-card">
-          <img
-            class="avatar"
-            src="https://github.com/0xMartin.png"
-            alt="Martin profile avatar"
-            width="128"
-            height="128"
-          />
-          <div>
-            <h2>About Me</h2>
-            <p>
-              Hello! I'm a passionate Software &amp; Hardware Engineer with a deep curiosity
-              for how things work — both in technology and the world around us. My journey
-              in tech began early and has been driven by a genuine enjoyment for exploring
-              and learning every day. I love transforming ideas into tangible projects.
-            </p>
-
-            <ul class="tags" aria-label="Main focus areas">
-              <li>🖥️ Desktop Apps</li>
-              <li>🔌 Embedded Systems</li>
-              <li>⚡ Circuit &amp; PCB Design</li>
-              <li>🎮 Game Development</li>
-              <li>🤖 AI &amp; Machine Learning</li>
-              <li>🌐 Backend Development</li>
-            </ul>
-
-            <div class="about-meta">
-              <div class="about-meta-item">
-                <span class="about-meta-label">🎓 Education</span>
-                <span>Tomas Bata University — Faculty of Applied Informatics</span>
+          <div class="hero-copy">
+            <div class="hero-main">
+              <div class="hero-header">
+                <img
+                  class="avatar hero-avatar"
+                  src="https://github.com/0xMartin.png"
+                  alt="Martin profile avatar"
+                  width="112"
+                  height="112"
+                />
+                <div class="hero-intro">
+                  <p class="eyebrow">Software x Hardware Engineer</p>
+                  <h1>Martin Krcma</h1>
+                  <p class="subtitle">
+                    I build practical products across desktop apps, embedded systems,
+                    backend services and machine learning.
+                  </p>
+                </div>
               </div>
-              <div class="about-meta-item">
-                <span class="about-meta-label">💻 Favorite Languages</span>
-                <span>C++ &nbsp;·&nbsp; Java &nbsp;·&nbsp; Lua</span>
+              <div class="hero-cta">
+                <a class="btn btn-primary" href="#top-projects">View Projects</a>
+                <a class="btn btn-ghost" href="https://github.com/0xMartin" target="_blank" rel="noreferrer">
+                  Visit GitHub
+                </a>
               </div>
-              <div class="about-meta-item">
-                <span class="about-meta-label">🎨 Hobbies</span>
-                <span>Drones · Scooters · Robots · Photography · Sushi · Gaming · Poker · Pyrotechnics · Swimming</span>
+            </div>
+            <div class="hero-aside">
+              <div class="hero-aside-head">
+                <h2>About Me</h2>
+                <p class="about-lead">Core areas, background, and the things I spend time building.</p>
+              </div>
+              <p class="hero-about">
+                Hello! I'm a passionate Software &amp; Hardware Engineer with a deep curiosity
+                for how things work, both in technology and the world around us. My journey
+                in tech began early and has been driven by a genuine enjoyment for exploring,
+                learning, and turning ideas into tangible projects.
+              </p>
+
+              <ul class="tags hero-tags" aria-label="Main focus areas">
+                <li><i class="fa-solid fa-desktop" aria-hidden="true"></i><span>Desktop Apps</span></li>
+                <li><i class="fa-solid fa-microchip" aria-hidden="true"></i><span>Embedded Systems</span></li>
+                <li><i class="fa-solid fa-bolt" aria-hidden="true"></i><span>Circuit &amp; PCB Design</span></li>
+                <li><i class="fa-solid fa-gamepad" aria-hidden="true"></i><span>Game Development</span></li>
+                <li><i class="fa-solid fa-brain" aria-hidden="true"></i><span>AI &amp; Machine Learning</span></li>
+                <li><i class="fa-solid fa-server" aria-hidden="true"></i><span>Backend Development</span></li>
+              </ul>
+
+              <div class="about-meta hero-meta">
+                <div class="about-meta-item">
+                  <span class="about-meta-label"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Education</span></span>
+                  <span>Tomas Bata University — Faculty of Applied Informatics</span>
+                </div>
+                <div class="about-meta-item">
+                  <span class="about-meta-label"><i class="fa-solid fa-code" aria-hidden="true"></i><span>Favorite Languages</span></span>
+                  <span>C++ &nbsp;·&nbsp; Java &nbsp;·&nbsp; Lua</span>
+                </div>
+                <div class="about-meta-item">
+                  <span class="about-meta-label"><i class="fa-solid fa-camera-retro" aria-hidden="true"></i><span>Hobbies</span></span>
+                  <span>Drones · Scooters · Robots · Photography · Sushi · Gaming · Poker · Pyrotechnics · Swimming</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </section>
 
       <section id="top-projects" class="top-projects container reveal">
