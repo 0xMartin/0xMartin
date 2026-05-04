@@ -36,10 +36,13 @@ body {
   inset: 0;
   pointer-events: none;
   z-index: -1;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
   background-size: 48px 48px;
-  mask-image: radial-gradient(circle at center, black 20%, transparent 90%);
+  background-position: 0 0, 0 0, 24px 24px, 24px 24px;
+  mask-image: radial-gradient(circle at center, black 38%, transparent 95%);
 }
 
 .container {
