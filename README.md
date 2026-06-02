@@ -93,6 +93,7 @@ Faculty of Applied Informatics
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Shell](https://img.shields.io/badge/Shell-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white)
 ![EasyEDA](https://img.shields.io/badge/EasyEDA-%230288D1.svg?style=flat-square&logoColor=white&logo=easyeda)
+![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
 
 </td>
 </tr>
