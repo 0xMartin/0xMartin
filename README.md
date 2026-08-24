@@ -87,13 +87,12 @@ Faculty of Applied Informatics
 <td valign="top" width="33%">
 
 **🔌 Embedded**  
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
+![EasyEDA](https://img.shields.io/badge/EasyEDA-%230288D1.svg?style=flat-square&logoColor=white&logo=easyeda)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/RPi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=Arduino&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Shell](https://img.shields.io/badge/Shell-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white)
-![EasyEDA](https://img.shields.io/badge/EasyEDA-%230288D1.svg?style=flat-square&logoColor=white&logo=easyeda)
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
 
 </td>
 </tr>
@@ -101,8 +100,8 @@ Faculty of Applied Informatics
 <td valign="top" width="33%">
 
 **🤖 AI & Graphics**  
-![CUDA](https://img.shields.io/badge/CUDA-%2376B900.svg?style=flat-square&logo=nVIDIA&logoColor=white)
 ![OpenGL](https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=flat-square&logo=opengl)
+![CUDA](https://img.shields.io/badge/CUDA-%2376B900.svg?style=flat-square&logo=nVIDIA&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-%23FA0F00.svg?style=flat-square&logo=jupyter&logoColor=white)
 ![Dask](https://img.shields.io/badge/Dask-111A29?style=flat-square&logo=dask&logoColor=white)
 
@@ -132,9 +131,8 @@ Faculty of Applied Informatics
 <td valign="top" width="33%">
 
 **🎮 Game Dev**  
+![Godot](https://img.shields.io/badge/Godot%20Engine-478CBF?logo=godotengine&logoColor=fff&style=flat)
 ![Unity](https://img.shields.io/badge/Unity-%23000000.svg?style=flat-square&logo=unity&logoColor=white)
-![Roblox](https://img.shields.io/badge/Roblox-%23000000.svg?style=flat-square&logo=roblox&logoColor=white)
-![Blender](https://img.shields.io/badge/Blender-%23F5792A.svg?style=flat-square&logo=blender&logoColor=white)
 
 </td>
 <td valign="top" width="33%">
@@ -142,6 +140,7 @@ Faculty of Applied Informatics
 **🎨 Design**  
 ![Affinity Photo](https://img.shields.io/badge/Affinity-%237E4DD2.svg?style=flat-square&logo=affine&logoColor=white)
 ![DaVinci](https://img.shields.io/badge/DaVinci-512CFF.svg?style=flat-square&logo=DaVinci%20Resolve&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-%23F5792A.svg?style=flat-square&logo=blender&logoColor=white)
 
 </td>
 <td valign="top" width="33%">
