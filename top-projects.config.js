@@ -2,7 +2,7 @@ window.TOP_PROJECTS_CONFIG = [
   {
     id: "jec-marine-bldc",
     title: "Marine BLDC Motor Driver & Control Electronics",
-    period: "2024 - Now",
+    period: "2021 - Now",
     isPublic: false,
     projectUrl: "",
     companyName: "JEC Marine",
