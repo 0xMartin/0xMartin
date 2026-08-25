@@ -1,5 +1,25 @@
 window.TOP_PROJECTS_CONFIG = [
   {
+    id: "jec-marine-bldc",
+    title: "Marine BLDC Motor Driver & Control Electronics",
+    period: "2024 - Now",
+    isPublic: false,
+    projectUrl: "",
+    companyName: "JEC Marine",
+    companyUrl: "https://www.jecmarine.com",
+    description:
+      "Development of <strong>BLDC motor drivers and control electronics</strong> for the marine industry, delivered for the Australian company <strong>JEC Marine</strong>. The work covers custom power electronics and firmware for reliable brushless motor control in demanding marine environments, with a focus on efficiency, thermal management, and long-term durability under continuous load. These products are deployed in vessels around the world.",
+    highlights: [
+      "Custom BLDC motor driver hardware and firmware",
+      "Robust control electronics for harsh marine conditions",
+      "Deployed in vessels worldwide"
+    ],
+    technologies: ["Embedded C++", "BLDC Control", "Power Electronics", "PCB Design"],
+    imageFolder: "assets/top-projects/jec-marine-bldc",
+    imageExtension: "jpg",
+    additionalImageCount: 3
+  },
+  {
     id: "saucom-slicer",
     title: "Saucom Slicer",
     period: "2024 - Now",
@@ -17,24 +37,6 @@ window.TOP_PROJECTS_CONFIG = [
     technologies: ["C++", "Qt", "G-code", "Robotics"],
     imageFolder: "assets/top-projects/stork",
     imageExtension: "png",
-    additionalImageCount: 3
-  },
-  {
-    id: "irshark",
-    title: "IRShark",
-    period: "2026 - Now",
-    isPublic: true,
-    projectUrl: "https://github.com/0xMartin/IRShark",
-    description:
-      "<strong>IRShark</strong> is an Android app for infrared device control, IR signal testing, and fast remote discovery, built with a Jetpack Compose UI for quick field usage. It is integrated with the Flipper IRDB ecosystem, supports both parsed and raw protocol data, and provides an IR Finder plus remote profile workflow to identify matching or universal remotes when the original controller is missing.",
-    highlights: [
-      "Jetpack Compose based interface",
-      "Parsed and raw protocol handling",
-      "IR Finder and remote profile workflow"
-    ],
-    technologies: ["Kotlin", "Jetpack Compose", "Android", "Flipper IRDB"],
-    imageFolder: "assets/top-projects/irshark",
-    imageExtension: "jpg",
     additionalImageCount: 3
   },
   {
@@ -56,6 +58,42 @@ window.TOP_PROJECTS_CONFIG = [
     technologies: ["Spring", "Keycloak", "React", "MariaDB"],
     imageFolder: "assets/top-projects/robogames",
     imageExtension: "png",
+    additionalImageCount: 3
+  },
+  {
+    id: "dukes-gambit",
+    title: "Duke's Gambit",
+    period: "2025 - Now",
+    isPublic: true,
+    projectUrl: "https://github.com/0xMartin/Duke-s-Gambit",
+    description:
+      "<strong>Duke's Gambit</strong> is a fully-featured 3D chess game built in <strong>Godot 4</strong>. It plays by standard chess rules, but every piece is a fully animated 3D character and captures play out as short combat duels instead of a simple disappearance. It ships with local PvP, single-player against a native C++ AI (a from-scratch bitboard engine loaded via GDExtension), and online multiplayer over a dedicated Python WebSocket server, plus stylised visuals, custom shaders, and full match replay export.",
+    highlights: [
+      "Animated 3D piece combat with custom shaders and VFX",
+      "Native C++ chess AI via GDExtension",
+      "Online multiplayer and full match replay"
+    ],
+    technologies: ["Godot 4", "GDScript", "C++", "Python"],
+    imageFolder: "assets/top-projects/dukes-gambit",
+    imageExtension: "jpg",
+    additionalImageCount: 2
+  },
+  {
+    id: "irshark",
+    title: "IRShark",
+    period: "2026 - Now",
+    isPublic: true,
+    projectUrl: "https://github.com/0xMartin/IRShark",
+    description:
+      "<strong>IRShark</strong> is an Android app for infrared device control, IR signal testing, and fast remote discovery, built with a Jetpack Compose UI for quick field usage. It is integrated with the Flipper IRDB ecosystem, supports both parsed and raw protocol data, and provides an IR Finder plus remote profile workflow to identify matching or universal remotes when the original controller is missing.",
+    highlights: [
+      "Jetpack Compose based interface",
+      "Parsed and raw protocol handling",
+      "IR Finder and remote profile workflow"
+    ],
+    technologies: ["Kotlin", "Jetpack Compose", "Android", "Flipper IRDB"],
+    imageFolder: "assets/top-projects/irshark",
+    imageExtension: "jpg",
     additionalImageCount: 3
   },
   {

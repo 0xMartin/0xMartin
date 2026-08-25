@@ -253,8 +253,12 @@ function renderProjects(repos) {
     const imageUrl = `https://opengraph.githubassets.com/1/${repo.full_name}`;
     const card = document.createElement("article");
     card.className = "project-card reveal";
+    const initial = (repo.name || "?").charAt(0).toUpperCase();
     card.innerHTML = `
-      <img class="project-thumb" src="${imageUrl}" alt="${repo.name} preview image" loading="lazy" />
+      <div class="project-thumb-wrap">
+        <div class="project-thumb-fallback" aria-hidden="true"><span>${initial}</span><small>${repo.name}</small></div>
+        <img class="project-thumb" src="${imageUrl}" alt="${repo.name} preview image" loading="lazy" onload="this.classList.add('is-loaded')" onerror="this.remove()" />
+      </div>
       <div class="project-content">
         <h3>${repo.name}</h3>
         <p>${repo.description || "No description available."}</p>
