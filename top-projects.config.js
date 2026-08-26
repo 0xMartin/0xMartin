@@ -63,7 +63,7 @@ window.TOP_PROJECTS_CONFIG = [
   {
     id: "dukes-gambit",
     title: "Duke's Gambit",
-    period: "2025 - Now",
+    period: "2026",
     isPublic: true,
     projectUrl: "https://github.com/0xMartin/Duke-s-Gambit",
     description:
@@ -81,7 +81,7 @@ window.TOP_PROJECTS_CONFIG = [
   {
     id: "irshark",
     title: "IRShark",
-    period: "2026 - Now",
+    period: "2026",
     isPublic: true,
     projectUrl: "https://github.com/0xMartin/IRShark",
     description:
@@ -117,7 +117,7 @@ window.TOP_PROJECTS_CONFIG = [
   {
     id: "twinwave",
     title: "TwinWave",
-    period: "2025 - Now",
+    period: "2025 - 2026",
     isPublic: true,
     projectUrl: "https://github.com/0xMartin/TwinWave",
     description:
@@ -135,7 +135,7 @@ window.TOP_PROJECTS_CONFIG = [
   {
     id: "midi-interrupter",
     title: "Compact 4-Channel MIDI Tesla Coil Interrupter",
-    period: "Nov 2024 - Jun 2025",
+    period: "2024 - 2025",
     isPublic: false,
     projectUrl: "",
     description:
